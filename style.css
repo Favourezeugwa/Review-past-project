@@ -2,16 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
-html {
-  scroll-behavior: smooth;
-}
-body {
-  font-family: sans-serif;
-}
 
-a {
-  text-decoration: none;
-}
 #navbar {
   display: flex;
   justify-content: flex-end;
@@ -37,10 +28,12 @@ a {
 h1 {
   margin: 30px;
   font-size: 50px;
+  font-family: sans-serif;
 }
 
 h2 {
   font-size: 30px;
+  font-family: sans-serif;
 }
 
 .wsp {
@@ -95,6 +88,7 @@ h2 {
 
 #profile > p {
   color: #fff;
+  font-family: sans-serif;
 }
 
 .links {
@@ -109,11 +103,13 @@ h2 {
 .links > a {
   padding: 15px 15px 0 0;
   color: rgb(212, 131, 101);
+  font-family: sans-serif;
 }
 
 @media (max-width: 550px) {
   #profile > h1 {
     font-size: 20px;
     margin-bottom: 30px;
+    font-family: sans-serif;
   }
 }
