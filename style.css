@@ -11,11 +11,13 @@
   background-color: rgb(201, 77, 97);
   font-size: 20px;
 }
+
 .navlink {
   margin-right: 15px;
   color: #f0f0f0;
   padding: 18px;
 }
+
 #welcome-section {
   background-color: rgb(228, 210, 220);
   height: 100vh;
@@ -25,6 +27,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 h1 {
   margin: 30px;
   font-size: 50px;
@@ -47,7 +50,7 @@ h2 {
 }
 
 .projects-header {
-  padding: 30px 0px 25px 0px;
+  padding: 30px 0 25px 0;
   color: #f0f0f0;
 }
 
@@ -69,6 +72,7 @@ h2 {
   width: 100%;
   object-fit: cover;
 }
+
 .project-ttle {
   color: #f0f0f0;
   font-size: 20px;
